@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="549.0" prefWidth="827.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="IHM.ParametreController">
+   <children>
+      <AnchorPane layoutX="19.0" layoutY="21.0" prefHeight="506.0" prefWidth="789.0" style="-fx-background-color: C5D7FF;">
+         <children>
+            <Label layoutX="40.0" layoutY="37.0" text="Choix du poids des critères">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+            </Label>
+            <Label layoutX="102.0" layoutY="204.0" text="Critères principaux">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="91.0" layoutY="343.0" text="Critères rédhibitoires">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Slider blockIncrement="1.0" depthTest="ENABLE" layoutX="343.0" layoutY="211.0" majorTickUnit="1.0" max="5.0" min="1.0" prefHeight="17.0" prefWidth="290.0" showTickLabels="true" showTickMarks="true" value="1.0" />
+            <CheckBox layoutX="376.0" layoutY="347.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="78.0" style="-fx-background-color: FFFFFF;" text="Animal">
+               <font>
+                  <Font size="14.0" />
+               </font></CheckBox>
+            <CheckBox layoutX="517.0" layoutY="347.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="116.0" style="-fx-background-color: #FFFFFF;" text="Alimentation">
+               <font>
+                  <Font size="14.0" />
+               </font></CheckBox>
+            <Button fx:id="validerButton" layoutX="566.0" layoutY="455.0" mnemonicParsing="false" onAction="#handleValide" style="-fx-background-color: #7ed469;" text="Valider">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="cancelButton" layoutX="683.0" layoutY="455.0" mnemonicParsing="false" onAction="#handleCancel" style="-fx-background-color: ee7055;" text="Annuler">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
