@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="IHM.AjouterEleveController">
+   <children>
+      <MenuBar layoutY="1.0" prefHeight="28.0" prefWidth="600.0" />
+      <AnchorPane layoutX="12.0" layoutY="35.0" prefHeight="550.0" prefWidth="576.0" style="-fx-background-color: C5D7FF; -fx-background-radius: 15;">
+         <children>
+            <Label layoutX="30.0" layoutY="25.0" text="Nouvel élève">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="222.0" layoutY="113.0" text="Nom :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="194.0" layoutY="144.0" text="Prénom :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="86.0" layoutY="175.0" text="Date d'anniversaire :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="165.0" layoutY="207.0" text="Nationalité :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="209.0" layoutY="238.0" text="Genre :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="nameField" layoutX="288.0" layoutY="112.0" />
+            <TextField fx:id="forenameField" layoutX="288.0" layoutY="143.0" />
+            <TextField fx:id="nationalityField" layoutX="288.0" layoutY="206.0" />
+            <DatePicker fx:id="birthDatePicker" layoutX="288.0" layoutY="173.0" prefHeight="25.0" prefWidth="171.0" />
+            <Button layoutX="406.0" layoutY="507.0" mnemonicParsing="false" onAction="#handleValider" style="-fx-background-color: #7ed469;" text="Valider">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="annuler" layoutX="483.0" layoutY="507.0" mnemonicParsing="false" onAction="#handleAnnuler" style="-fx-background-color: ee7055;" text="Annuler">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <CheckBox fx:id="checkMale" layoutX="288.0" layoutY="240.0" mnemonicParsing="false" text="Homme" />
+            <CheckBox fx:id="checkFemale" layoutX="374.0" layoutY="240.0" mnemonicParsing="false" text="Femme" />
+            <CheckBox fx:id="checkOther" layoutX="460.0" layoutY="240.0" mnemonicParsing="false" text="Autre" />
+            <Label layoutX="129.0" layoutY="271.0" text="Allergie animal :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="checkAllergyAnimal" layoutX="288.0" layoutY="273.0" mnemonicParsing="false" />
+            <Label layoutX="67.0" layoutY="306.0" text="Animal de compagnie :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="checkPet" layoutX="289.0" layoutY="307.0" mnemonicParsing="false" />
+            <Label layoutX="106.0" layoutY="338.0" text="Allergie nouriture :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="checkVegetarian" layoutX="288.0" layoutY="340.0" mnemonicParsing="false" text="Végétarien" />
+            <CheckBox fx:id="checkNut" layoutX="395.0" layoutY="340.0" mnemonicParsing="false" text="noix" />
+            <Label layoutX="204.0" layoutY="371.0" text="Hobby :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="214.0" layoutY="398.0" text="(Mettre une virgule entre chaque hobby)">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <TextField fx:id="hobbyField" layoutX="278.0" layoutY="371.0" />
+            <Label layoutX="123.0" layoutY="421.0" text="Genre souhaité :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="preferredMale" layoutX="288.0" layoutY="423.0" mnemonicParsing="false" text="Homme" />
+            <CheckBox fx:id="preferredFemale" layoutX="374.0" layoutY="423.0" mnemonicParsing="false" text="Femme" />
+            <CheckBox fx:id="preferredOther" layoutX="460.0" layoutY="423.0" mnemonicParsing="false" text="Autre" />
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>
