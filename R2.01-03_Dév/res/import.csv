@@ -1,0 +1,14 @@
+FORENAME;NAME;COUNTRY;BIRTH_DATE;GUEST_ANIMAL_ALLERGY;HOST_HAS_ANIMAL;GUEST_FOOD_CONSTRAINT;HOST_FOOD;HOBBIES;GENDER;PAIR_GENDER;HISTORY
+Adonia; A; FRANCE;17/05/1995 ; false; true; normal; normal; sports,technologie; F; M; true
+Bellatrix; B; FRANCE; 28/10/1996 ; true; false; no nuts; no nuts; culture,science;F ;F ; false
+Callista; C; FRANCE;25/08/1995 ; false; true; no nuts; no nuts; science,lecture;F ;x ; true
+Xolag; X; ITALY;14/05/1995 ;true ; false; normal; normal; culture,technologie;M ;M ; true
+Yak; Y; ITALY; 06/09/1996; false; true; vegetarian; vegetarian; science,lecture;O ;x ; false
+Zander; Z; ITALY; 13/12/1995;false ; false; normal; normal; technologie;M ;F ; true
+Mathéo; Desprez; ALLMAGNE; 22/06/2004;false;true;normal;normal;sport,dessiner,cinema;M;M;false
+Maxou; Mangin; ESPAGNE; 05/09/2005;false;true;normal;normal;sport,cinema;M;M;false
+Loïse;Vigneron; ITALY; 26/10/1999;false;false;normal;normal;crochet,lecture,dessiner,cinema;O;x;false
+Manon;Viloda-Rivere;ITALY; 29/05/2006;false;false;normal;normal;lecture,musique,sport;F;F;false
+Evan;Lebbrecht;ALLMAGNE;28/10/2006;false;false;normal;normal;jeuxvidéos,canard;M;x;false
+Mei li; Ung; ESPAGNE; 17/11/2006;false;false;normal;normal;dessiner,jeuxvidéos,lecture;F;x;false
+Robert;Dubois;FRANCE;12/10/2005;true;false;no nuts;normal;sport,cinema,lecture;M;M;false
